@@ -1,0 +1,19 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Time {
+  public static void main(String [] args){
+    System.out.println("This program will tell you how many HOURS,MINUTES and SECONDS are in 20000");
+    int sec;
+    int minutes;
+    int hours;
+    int initial = 20000;
+    hours = initial/3600;
+    minutes = initial % 3600/60;
+      sec = initial % 3600 % 60;
+      System.out.println(hours + ":" + minutes + ":" + sec);
+  
+  /* ADD YOUR CODE HERE */
+  
+}
+}
